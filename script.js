@@ -20,8 +20,10 @@ document.getElementById('cal-contianer').append(_heading,_input,_button,_result)
 
 let _button_event = document.getElementById('btn')
 _button_event.setAttribute('class','btn btn-primary btn-lg')
+let get_input = document.getElementById('input')
+get_input.setAttribute('placeholder','Enter the number')
 _button_event.onclick = () => {
-    let cm_val = parseFloat(document.getElementById('input').value)
+    let cm_val = parseFloat(get_input.value)
     let result=document.getElementById("result")
     if (!isNaN(cm_val)) { 
         let inch_val = cm_val / 2.54;
