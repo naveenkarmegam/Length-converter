@@ -1,0 +1,51 @@
+body {
+    background-color: #feb236;
+}
+#cal-contianer {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin:0 auto;
+    margin-top: 100px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#heading,#result {
+    padding: 20px;
+    color: beige;
+    font-weight: bolder;
+    font-stretch: expanded;
+    margin: 20px;
+    text-align: center;
+}
+#result {
+    font-size: 25px;
+}
+input {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(184, 164, 127);
+    padding:23px 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+input:hover {
+    background-color: whitesmoke;
+}
+
+button {
+    margin: 40px 0 0 0;
+    width: 35%;
+}
+button:hover {
+    background-color: green !important;
+    border: none !important;
+}
